@@ -3,10 +3,7 @@ body{
     background-size: cover;
     background-repeat:no-repeat;
 
-    p {
-        border: 2px solid goldenrod;
-        padding: 20px,40px,40px,20px;
-      }
+
     
 
 }
