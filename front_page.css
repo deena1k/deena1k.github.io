@@ -1,7 +1,11 @@
 body{
-    padding: 20px,40px,40px,20px;
+    
     p {
         border: 2px solid goldenrod;
+        padding: 20px,40px,40px,20px;
+        background-image: url("C:/Users/Adeena Khan/Documents/GitHub_Projects/deena1k.github.io/chemE.jpg");
+        background-size: cover;
+        background-attachment:fixed;
       }
     
     background-image: url("C:/Users/Adeena Khan/Documents/GitHub_Projects/deena1k.github.io/chemE.jpg");
