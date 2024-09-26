@@ -1,6 +1,7 @@
 body{
-    padding: 20, 40, 40 20;
+    
     background-image: url("chemE.jpg");
-    background-size: 300px, 200px;
+    background-size: cover;
+    background-attachment:fixed;
 
 }
