@@ -1,0 +1,47 @@
+<p> Class Project: Parameters given (give time frame for this development)
+    In the original prototype, I worked on picking up items, interacting with/using items,
+    and the inventory display system (UI elements).
+
+Some of the design process was based on user feedback. For example, I originally had people having to press "E"
+to pick up items, but a lot of people who played our game as they felt like it was disruptive. As a result, I
+went back and coded it so that people would automatically pick up items.
+
+Another feature that I added (which wasn't showcased in the final submission due to only one item being picked up in \
+ the demo) was scrolling through the inventory! People would be able to see what they had selected by pressing
+x.  </p>
+
+<p> I feel like this project was aLSO good opportunity for me because I had to realize that not everything will always
+    be used in the final product. The code base was restarted from scratch for phase 3 of our project, in order
+    for all of our code and documentation to be more organized. I also had to switch project teams in order 
+    for us to scale up our project. For the final phase I worked on some of the assets and animations! It was
+    a fun experience. Below are some of the animations and sprites I made. (if you scroll over, you can also see
+    my thought process for each design!)
+
+
+    (ghost rising: etheral, another chance!)
+    (ghost transforming: so many objects! Wanted to make something that would minimize the
+    amount of time animating. Didn't want to animate for each object, so did something that could eb
+    generic. Adjusted heaight for object)
+    (key in ice)
+    "This week was mainly the team fixing bugs and tying the final levels together! I had a few 
+    animation bugs, so I was focusing on altering those. One of the bugs were that when you transformed 
+    out of the tombstone at a high level your character falls while still coming out of the tombstone, 
+    and rotating rapidly. To fix this I made sure to save the gravity value before the animation occurs, 
+    and then change the gravity value to 0 while the animation is in progress. This ensured that the player
+     would match whatever surface they were on and not fall down. I thought this was important because this
+      was happening in the first level, where players are getting used to the control. It felt important to
+       standardize the reviving animation so that players could understand what's happening in the game. 
+       Another bug was that the death animation would sometimes play at an angle, depending on which way 
+       the player hit an object. At times it looked really weird and didn't make much logical sense, so I just 
+       made sure to set the rotation to 0 when the animation began. Another kinda major bug was how the iced key 
+       was sometimes delayed in its melting, which meant that it only melted when you de-possessed and then 
+       re-possessed it again AFTER melting it. This was concerning, as it sometimes messed with the animators 
+       order for possessing (animator would get confused which idle you were on). I made a few changes so that 
+       stuff would be reset earlier (like icedKey=false), and while this works the only thing I'm worried about
+        is now sometimes the animation won't play at all. This is fine if it prevents larger bugs, but it is a 
+        bit disheartening because I spent 1-2 hours on it. "
+
+        Also talk about animation when moving, speeding up animations taking too long (tiem based stuff, boring)
+    
+
+</p>
