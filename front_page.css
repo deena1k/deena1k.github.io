@@ -31,16 +31,17 @@ p{
 
       }
       .right{
-        float:right;
-        display:flex;
-        flex-direction: column;
-        justify-content:space-evenly;
-        padding: 20% 0%;
         #me{
             float: right;
             height: 250px;
             width: 250px;
         }
+        float:right;
+        display:flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        padding: 20% 0%;
+
       }
     
 
