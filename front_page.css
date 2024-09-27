@@ -15,9 +15,14 @@ h1{
         flex-direction: row;
         justify-content: space-between;
     }
+    .flex2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 p{
-    font-size: 25px;
+    font-size: 18px;
     font-family: 'Courier New';
     border: 6px dotted #95ebee;
     background-color:aliceblue;
@@ -30,19 +35,7 @@ p{
         background-color:aliceblue;
 
       }
-      .right{
-        #me{
-            float: right;
-            height: 250px;
-            width: 250px;
-        }
-        float:right;
-        display:flex;
-        flex-direction: column;
-        justify-content:space-evenly;
-        padding: 20% 0%;
-
-      }
+      
     
 
 }
