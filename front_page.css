@@ -6,10 +6,7 @@ h1{
     border: 2px thick double white;
     font-size:50px;
     margin: 10px;
-    #link{
-        height: 70px;
-        width: 50px;   
-    }
+
     .flex1{
         display: flex;
         flex-direction: row;
