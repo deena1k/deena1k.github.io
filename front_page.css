@@ -6,7 +6,7 @@ h1{
     border: 2px thick double white;
     font-size:50px;
     margin: 10px;
-    image{
+    #link{
         height: 70px;
         width: 50px;   
     }
@@ -37,6 +37,7 @@ p{
         justify-content:space-evenly;
         padding: 20% 0%;
         #me{
+            float: right;
             height: 250px;
             width: 250px;
         }
