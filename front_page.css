@@ -10,8 +10,8 @@ h1{
     font-size:50px;
     margin: 10px;
     image{
-        height: 200px;
-        width: 200px;   
+        height: 70px;
+        width: 50px;   
     }
     .flex1{
         display: flex;
