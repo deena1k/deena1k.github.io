@@ -6,8 +6,9 @@ body{
 
 
     #intro {
-        border: 2px solid goldenrod;
-        
+        border: 6px solid goldenrod;
+        margin: 10px 300px 50px 10px;
+        background-color:aliceblue
 
       }
     
