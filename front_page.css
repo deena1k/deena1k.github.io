@@ -10,6 +10,7 @@ h1{
 
     .flex1{
         display: flex;
+        justify-content: space-between;
     }
 
     .flex2{
@@ -25,12 +26,18 @@ p{
 
     #intro {
         border: 6px dotted #95ebee;
-        margin: 0% 60% 0% 0%;
+        margin: 0% 20% 0% 0%;
         padding: 0% 0% 0% 0%;
         background-color:aliceblue;
 
       }
-      
+    #me{
+        margin-right:20px;
+    }
+   #link{
+    cursor: pointer;
+    padding-top: 2.5%;
+   }   
     
 
 }
