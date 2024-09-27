@@ -6,6 +6,7 @@ h1{
     border: 2px thick double white;
     font-size:50px;
     margin: 10px;
+}
 
     .flex1{
         display: flex;
@@ -14,7 +15,7 @@ h1{
     .flex2{
         display: flex;
     }
-}
+
 p{
     font-size: 18px;
     font-family: 'Courier New';
