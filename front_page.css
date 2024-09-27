@@ -11,6 +11,11 @@ h1{
         background-color:aliceblue;
         float:left;
     }
+    .flex1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
     #intro {
@@ -18,8 +23,12 @@ h1{
         font-family: 'Courier New';
         border: 6px dotted #95ebee;
         margin: 0% 30% 0% 0%;
+        padding: 0% 50%;
         background-color:aliceblue;
 
+      }
+      .right{
+        float:right
       }
     
 
