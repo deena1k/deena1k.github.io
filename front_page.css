@@ -2,8 +2,8 @@
 body{
     background-color: rgb(217, 255, 129);
     #me{
-        height: 500px;
-        width: 500px;
+        height: 250px;
+        width: 250px;
     }
 h1{
     border: 2px thick double white;
