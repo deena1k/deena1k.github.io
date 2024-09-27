@@ -1,17 +1,17 @@
 
 body{
     background-color: rgb(217, 255, 129);
-    img{
-        width:100%;
-        height:100%;
+    #me{
+        height: 500px;
+        width: 500px;
     }
 h1{
+    border: 2px thick double white;
     font-size:50px;
     margin: 10px;
-    #name{
-        border: 6px dotted #95ebee;
-        background-color:aliceblue;
-        float:left;
+    image{
+        height: 200px;
+        width: 200px;   
     }
     .flex1{
         display: flex;
@@ -29,7 +29,7 @@ p{
     #intro {
         border: 6px dotted #95ebee;
         margin: 0% 30% 0% 0%;
-        padding: 0% 50% 0% 0%;
+        padding: 0% 0% 0% 0%;
         background-color:aliceblue;
 
       }
