@@ -27,6 +27,7 @@ p{
     #intro {
         border: 6px dotted #95ebee;
         background-color:aliceblue;
+        margin: 0 20% 5% 0%;
 
       }
     #me{
@@ -34,7 +35,8 @@ p{
     }
    #link{
     cursor: pointer;
-    padding-top: 2.5%;
+    padding-top: 2%;
+    margin-left: 4%;
    }
    .prototype{
     display:flex;
