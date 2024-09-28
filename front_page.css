@@ -3,7 +3,7 @@ body{
     background-color: rgb(217, 255, 129);
     
 h1{
-    border: 2px thick double white;
+    border-image: 2px thick double white;
     font-size:50px;
     margin: 10px 0px;
 }
