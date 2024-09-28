@@ -10,7 +10,7 @@ h1{
 
     .flex1{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .flex2{
@@ -26,7 +26,7 @@ p{
 
     #intro {
         border: 6px dotted #95ebee;
-        margin: 0% 40% 0% 0%;
+        margin: 0% 0% 0% 0%;
         padding: 0% 0% 0% 30%;
         background-color:aliceblue;
 
@@ -61,6 +61,10 @@ p{
     align-content: center;
     font-size:40px;
 
+   }
+   .final_image{
+    display: flex;
+    justify-content: space-evenly;
    }
     
 
