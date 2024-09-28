@@ -1,9 +1,16 @@
 var linkedln = document.getElementById("link");
-linkedln.addEventListener("click",redirect)
+var game = document.getElementById("prototype");
+
+linkedln.addEventListener("click",redirect);
+game.addEventListener("click",redirect2);
 
 
 
 function redirect()
 {
-    window.open("https://www.linkedin.com/in/adeena-khan/")
+    window.open("https://www.linkedin.com/in/adeena-khan/");
+}
+function redirect2()
+{
+    window.open("https://simmer.io/@johnpayne/justdie");
 }
