@@ -38,6 +38,11 @@ p{
     cursor: pointer;
     padding-top: 2.5%;
    }   
+   .prototype_image{
+    display: flex;
+    justify-content: space-between;
+
+   }
     
 
 }
