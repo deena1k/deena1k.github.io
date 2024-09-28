@@ -1,5 +1,5 @@
 var linkedln = document.getElementById("link");
-linkedln.addEventListener("click",redirect)
+linkedln.addEventListener("click",redirect())
 
 
 
