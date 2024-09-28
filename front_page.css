@@ -32,15 +32,21 @@ p{
 
       }
     #me{
-        margin-right:20px;
+        margin-right:60px;
     }
    #link{
     cursor: pointer;
     padding-top: 2.5%;
+   }
+   .prototype{
+    display:flex;
    }   
    .prototype_image{
+    height:250;
+    width:300;
     display: flex;
-    justify-content: space-between;
+    flex-direction:column;
+    justify-content: space-evenly;
 
    }
     
