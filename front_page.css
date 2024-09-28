@@ -41,11 +41,13 @@ p{
    .prototype{
     display:flex;
     justify-content: space-evenly;
+    flex-direction: column;
    }   
    .prototype_image{
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
+    border: 2px solid lightskyblue; 
 
    }
     
