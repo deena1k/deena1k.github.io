@@ -32,6 +32,7 @@ p{
       }
     #me{
         margin-right:60px;
+        border: solid 2 px rgb(169, 224, 252)smoke
     }
    #link{
     cursor: pointer;
