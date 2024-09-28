@@ -27,7 +27,7 @@ p{
     #intro {
         border: 6px dotted #95ebee;
         margin: 0% 0% 0% 0%;
-        padding: 0% 0% 0% 30%;
+        padding: 0% 0% 0% 0%;
         background-color:aliceblue;
 
       }
@@ -58,6 +58,7 @@ p{
    }
    #dude_one{
     border:none;
+    align-content: center;
     font-size:40px;
 
    }
