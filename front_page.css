@@ -36,13 +36,15 @@ p{
     }
    #link{
     cursor: pointer;
-    padding-top: 2%;
-    margin-left: 4%;
+    padding-top: 1.8%;
+    margin-left: 2%;
    }
    .prototype{
     display:flex;
     justify-content: space-evenly;
     flex-direction: column;
+    width:400px;
+    height:350px;
    }   
    .prototype_image{
     display: flex;
