@@ -1,5 +1,6 @@
 var linkedln = document.getElementById("link");
-var game = document.getElementById("prototype");
+var game = document.getElementById("button");
+
 
 linkedln.addEventListener("click",redirect);
 game.addEventListener("click",redirect2);
