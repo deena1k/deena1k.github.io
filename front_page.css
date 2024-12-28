@@ -120,5 +120,11 @@ margin: 0px 60px 0% 0%;
     visibility:visible;
 
    }
+   #ghost_rise{
+    position:absolute;
+    top: 0;
+    left: 0;
+    visibility:visible;
 
+   }
 }
