@@ -1,6 +1,7 @@
 var linkedln = document.getElementById("link");
 var game = document.getElementById("button");
 var hover1 = document.getElementById("hover1_pop");
+var hover1_replace =document.getElementById("ice_key");
 
 
 linkedln.addEventListener("click",redirect);
@@ -9,8 +10,8 @@ game.addEventListener("click",redirect2);
 game.addEventListener("mouseover",hovered);
 game.addEventListener("mouseout",no_hovered);
 
-game.addEventListener("mouseover",hover_for_pic1);
-game.addEventListener("mouseout",no_hover_for_pic1);
+hover1.addEventListener("mouseover",hover_for_pic1);
+hover1.addEventListener("mouseout",no_hover_for_pic1);
 
 //hover functions
 function hovered()
@@ -24,12 +25,15 @@ function no_hovered()
 
 function hover_for_pic1()
 {
-    game.setAttribute("style","display:block");
+    hover1.setAttribute("style","display:block");
+    hover1_replace.setAttribute("style","display:none");
 }
 
 function no_hover_for_pic1()
 {
     game.setAttribute("style","display:none");
+    hover1_replace.setAttribute("style","display:block");
+
 }
 
 function redirect()
