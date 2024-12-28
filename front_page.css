@@ -5,7 +5,7 @@ body{
 h1{
     border-image: 2px thick double white;
     font-size:50px;
-    margin: 10px 0px;
+    margin: 30px 0px 0px 0px;
     color: white;
 }
 h2{
@@ -104,14 +104,14 @@ margin: 0px 60px 0% 0%;
     position:absolute;
     visibility:hidden;
     border:5px #95ebee;
-    fill:aquamarine;
+    background-color:aquamarine;
    }
    #hover2_pop{
 
     position:absolute;
     visibility:hidden;
     border:5px #95ebee;
-    fill:aquamarine;
+    background-color:aquamarine;
    }
    #ice_key{
     position:absolute;
