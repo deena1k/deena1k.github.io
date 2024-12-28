@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(217, 255, 129);
+    background-color: rgb(79, 55, 39);
     
 h1{
     border-image: 2px thick double white;
@@ -10,6 +10,8 @@ h1{
 
     .flex1{
         display: flex;
+        position:sticky;
+        background-color: black;
     }
 
     .flex2{
@@ -19,8 +21,7 @@ h1{
 
 p{
     font-size: 18px;
-    font-family: 'Courier New';
-    border: 6px dotted #95ebee;
+    font-family: 'Courier New';;
     background-color:aliceblue;
 }
 
@@ -32,7 +33,7 @@ p{
       }
     #me{
         margin-right:60px;
-        border: solid 2 px rgb(169, 224, 252);
+        border: solid 5 px rgb(169, 224, 252);
     }
    #link{
     cursor: pointer;
