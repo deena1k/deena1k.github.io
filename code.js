@@ -10,7 +10,7 @@ game.addEventListener("click",redirect2);
 game.addEventListener("mouseover",hovered);
 game.addEventListener("mouseout",no_hovered);
 
-hover1.addEventListener("mouseover",hover_for_pic1);
+hover1_replace.addEventListener("mouseover",hover_for_pic1);
 hover1.addEventListener("mouseout",no_hover_for_pic1);
 
 //hover functions
