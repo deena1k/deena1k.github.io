@@ -38,7 +38,7 @@ p{
         border-color: 5px rgb(169, 224, 252);
         border-style: solid;
     }
-   #link img{
+   #link{
     cursor: pointer;
     padding-top: 1.8%;
     margin-left: 2%;
