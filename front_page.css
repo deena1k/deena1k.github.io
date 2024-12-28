@@ -96,7 +96,17 @@ margin: 0px 60px 0% 0%;
    .hover1{
     position:relative;
    }
+   .hover2{
+    position:relative;
+   }
    #hover1_pop{
+
+    position:absolute;
+    visibility:hidden;
+    border:5px #95ebee;
+    fill:aquamarine;
+   }
+   #hover2_pop{
 
     position:absolute;
     visibility:hidden;
