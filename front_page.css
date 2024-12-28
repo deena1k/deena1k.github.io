@@ -32,6 +32,8 @@ p{
 }
 .right{
 float: left;
+justify-content: center;
+align-items: center;
 }
 
     #intro {
