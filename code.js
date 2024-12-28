@@ -25,14 +25,14 @@ function no_hovered()
 
 function hover_for_pic1()
 {
-    hover1.setAttribute("style","display:block");
-    hover1_replace.setAttribute("style","display:none");
+    hover1.setAttribute("style","visibility:visible");
+    hover1_replace.setAttribute("style","visibility:hidden");
 }
 
 function no_hover_for_pic1()
 {
-    hover1.setAttribute("style","display:none");
-    hover1_replace.setAttribute("style","display:block");
+    hover1.setAttribute("style","visibility:hidden");
+    hover1_replace.setAttribute("style","visibility:visible");
 
 }
 
