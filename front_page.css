@@ -1,10 +1,14 @@
 
 body{
-    background-color: rgb(79, 55, 39);
+    background-color: rgb(49, 33, 23);
     
 h1{
     border-image: 2px thick double white;
     font-size:50px;
+    margin: 10px 0px;
+}
+h1{
+    font-size:30.9px;
     margin: 10px 0px;
 }
 
@@ -22,7 +26,7 @@ h1{
     }
 
 p{
-    font-size: 18px;
+    font-size: 15.45px;
     font-family: 'Courier New';;
     background-color:aliceblue;
 }
@@ -35,7 +39,7 @@ p{
       }
     #me{
         margin-right:60px;
-        border-color: 5px rgb(169, 224, 252);
+        border-color: 10px rgb(169, 224, 252);
         border-style: solid;
     }
    #link{
@@ -65,7 +69,7 @@ p{
    }
    #dude_one{
     border:none;
-    font-size:40px;
+    font-size:50px;
 
    }
    .final_image{
