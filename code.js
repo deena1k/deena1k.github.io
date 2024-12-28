@@ -24,12 +24,12 @@ function no_hovered()
 
 function hover_for_pic1()
 {
-    game.setAttribute("style","opacity:1");
+    game.setAttribute("style","display:block");
 }
 
 function no_hover_for_pic1()
 {
-    game.setAttribute("style","opacity:0");
+    game.setAttribute("style","display:none");
 }
 
 function redirect()

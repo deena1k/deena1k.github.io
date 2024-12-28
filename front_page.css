@@ -96,7 +96,7 @@ margin: 0px 60px 0% 0%;
    }
    #hover1_pop{
     position:absolute;
-    opacity: 0;
+    display: none;
    }
 
 }
