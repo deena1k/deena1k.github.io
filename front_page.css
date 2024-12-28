@@ -81,7 +81,7 @@ margin: 0px 60px 0% 0%;
    }
    .final_image{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
    }
    
    #button{
