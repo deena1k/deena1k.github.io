@@ -31,7 +31,7 @@ function hover_for_pic1()
 
 function no_hover_for_pic1()
 {
-    game.setAttribute("style","display:none");
+    hover1.setAttribute("style","display:none");
     hover1_replace.setAttribute("style","display:block");
 
 }
