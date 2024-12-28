@@ -93,10 +93,20 @@ margin: 0px 60px 0% 0%;
     margin-top: 50px;
    }
 
+   .hover1{
+    position:relative;
+   }
    #hover1_pop{
 
-    position:relative;
+    position:absolute;
     visibility:hidden;
+    border:5px #95ebee;
+    fill:aquamarine;
+   }
+   #ice_key{
+    position:absolute;
+    visibility:visible;
+
    }
 
 }
