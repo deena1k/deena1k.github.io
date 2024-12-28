@@ -105,6 +105,8 @@ margin: 0px 60px 0% 0%;
    }
    #ice_key{
     position:absolute;
+    top: 0;
+    left: 0;
     visibility:visible;
 
    }
