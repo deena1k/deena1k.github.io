@@ -79,8 +79,10 @@ p{
    
    #button{
     cursor: pointer;
+    justify-content: center;
     width:30%;
-    height:30%;
+    height:50%;
+    background-color:antiquewhite;
    }
 
 }
