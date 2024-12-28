@@ -38,12 +38,12 @@ p{
         border-color: 5px rgb(169, 224, 252);
         border-style: solid;
     }
-   #link{
+   #link img{
     cursor: pointer;
     padding-top: 1.8%;
     margin-left: 2%;
-    height:50px ;
-    width: 50px;
+    height:30% ;
+    width: 30%;
    }
    .prototype{
     display:flex;
