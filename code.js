@@ -1,5 +1,6 @@
 var linkedln = document.getElementById("link");
 var game = document.getElementById("button");
+var hover1 = document.getElementById("hover1_pop");
 
 
 linkedln.addEventListener("click",redirect);
@@ -8,7 +9,10 @@ game.addEventListener("click",redirect2);
 game.addEventListener("mouseover",hovered);
 game.addEventListener("mouseout",no_hovered);
 
+game.addEventListener("mouseover",hover_for_pic1);
+game.addEventListener("mouseout",no_hover_for_pic1);
 
+//hover functions
 function hovered()
 {
     game.setAttribute("style","background-color:rgb(38, 159, 235)");
@@ -16,6 +20,16 @@ function hovered()
 function no_hovered()
 {
     game.setAttribute("style","background-color:rgb(255, 255, 255)");
+}
+
+function hover_for_pic1()
+{
+    game.setAttribute("style","opacity:1");
+}
+
+function no_hover_for_pic1()
+{
+    game.setAttribute("style","opacity:0");
 }
 
 function redirect()

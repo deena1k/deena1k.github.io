@@ -91,5 +91,12 @@ margin: 0px 60px 0% 0%;
     background-color:rgb(255, 255, 255);
     margin-top: 50px;
    }
+   .hover1{
+    position:relative;
+   }
+   #hover1_pop{
+    position:absolute;
+    opacity: 0;
+   }
 
 }
