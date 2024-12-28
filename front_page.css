@@ -12,6 +12,8 @@ h1{
         display: flex;
         position:sticky;
         background-color: black;
+
+        top:0;
     }
 
     .flex2{
@@ -33,7 +35,9 @@ p{
       }
     #me{
         margin-right:60px;
-        border: solid 5 px rgb(169, 224, 252);
+        border-color: rgb(169, 224, 252);
+        border-style: solid;
+        border-width: thick;
     }
    #link{
     cursor: pointer;
