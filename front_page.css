@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(205, 126, 74);
+    background-color: rgb(76, 57, 28);
     
 h1{
     border-image: 2px thick double white;
@@ -24,6 +24,7 @@ h2{
     .flex2{
         display: flex;
         justify-content: space-between;
+        padding: 10px 0px 0px 0px;
     }
 
 p{
