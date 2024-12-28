@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(228, 167, 127);
+    background-color: rgb(205, 126, 74);
     
 h1{
     border-image: 2px thick double white;
@@ -16,7 +16,7 @@ h2{
     .flex1{
         display: flex;
         position:sticky;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(33, 33, 33);
 
         top:0;
     }
@@ -30,6 +30,7 @@ p{
     font-size: 15.45px;
     font-family: sans-serif;
     background-color:aliceblue;
+    border: 6px thick double #373534;
 }
 .right{
 margin: 0px 60px 0% 0%;
