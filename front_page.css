@@ -86,9 +86,10 @@ margin: 0px 60px 0% 0%;
    #button{
     cursor: pointer;
     justify-content: center;
-    width:30%;
-    height:50%;
-    background-color:antiquewhite;
+    width:10%;
+    height:40px;
+    background-color:rgb(255, 255, 255);
+    margin-top: 50px;
    }
 
 }
