@@ -32,14 +32,13 @@ p{
 }
 .right{
 float: left;
-justify-content: center;
-align-items: center;
+margin: 20% 60% 0% 0%;
 }
 
     #intro {
         border: 6px dotted #95ebee;
         background-color:aliceblue;
-        margin: 0 20% 5% 0%;
+        margin: 20% 20% 0% 0%;
 
       }
     #me{
