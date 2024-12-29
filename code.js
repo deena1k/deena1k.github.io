@@ -8,10 +8,17 @@ function slide_progress(slide)
         {
             slide=0;
         }
+    if(slide == 0)
+    {
+        full_slides[full_slides.length-1].setAttribute("style","visibility:hidden");
+    }
+    else
+    {
+        full_slides[slide-1].setAttribute("style","visibility:hidden");
+    }
     current_slide1 = full_slides[slide];
     current_slide1.setAttribute("style","visibility:visible");
     setInterval(slide_progress,5000,slide+1);
-    current_slide1.setAttribute("style","visibility:hidden");
 }
 
 initial_slide=0
