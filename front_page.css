@@ -19,9 +19,9 @@ width: auto;
 font-size:30.9px;
 display:flex;
 justify-content: space-between;
-padding-left:50%;
+padding-left:20px;
 float:right;
-gap:15 px;
+gap:15px;
 }
 
 .pages a:hover {
@@ -34,8 +34,6 @@ gap:15 px;
     .flex1{
         display: flex;
         position:sticky;
-        height: auto;
-        width: auto;
         background-color: rgb(33, 33, 33);
 
         top:0;
