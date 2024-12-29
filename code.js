@@ -21,8 +21,6 @@ function slide_progress(slide)
     setInterval(slide_progress,5000,slide+1);
 }
 
-initial_slide=0
-slide_progress(initial_slide)
 
 
 
