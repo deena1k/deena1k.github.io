@@ -18,7 +18,7 @@ function slide_progress(slide)
     }
     current_slide1 = full_slides[slide];
     current_slide1.setAttribute("style","visibility:visible");
-    setInterval(slide_progress,5000,slide+1);
+    interval = setTimeout(slide_progress,5000,slide+1);
 }
 
 
