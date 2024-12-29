@@ -15,7 +15,8 @@ h2{
 .pages
 {
 display:flex;
-justify-content: flex-end;
+justify-content: space-between;
+padding-right:50%;
 }
     .flex1{
         display: flex;
@@ -49,8 +50,8 @@ margin: 0px 60px 0% 0%;
         border-color: 10px rgb(169, 224, 252);
         border-radius: 50%;
         border-style: solid;
-        height:50%;
-        width:50%;
+        height:25%;
+        width:25%;
     }
    #link{
     cursor: pointer;
