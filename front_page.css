@@ -44,8 +44,8 @@ margin-top:30px;
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        padding: 10px 0px 0px 0px;
         gap:20px;
+        position:relative;
     }
 
 p{
@@ -53,9 +53,7 @@ p{
     font-size: 30.9px;
     font-family: sans-serif;
 }
-.right{
-margin: 0px 60px 0% 0%;
-}
+
 
     #intro {
         margin: 0px 20px 0% 0%;
@@ -150,5 +148,11 @@ margin: 0px 60px 0% 0%;
     left: 0;
     visibility:visible;
 
+   }
+   .slideshow
+   {
+    padding-bottom:10px;
+    display:none;
+    position:absolute;
    }
 }

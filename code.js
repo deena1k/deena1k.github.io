@@ -1,4 +1,34 @@
 var linkedln = document.getElementById("link");
+var full_slides = document.getElementsByClassName("slideshow");
+
+function slide_timing()
+{
+    for (let i=0; i<=full_slides.length;i++)
+        {
+            current_slide1 = full_slides[i];
+            current_slide.setAttribute("style","display:block");
+            setInterval(slide_progress,5000,current_slide1);
+            if (i == full_slides.length)
+            {
+                i=-1;
+            }
+        }
+
+}
+
+function slide_progress(slide)
+{
+    slide.setAttribute("style","display:none")
+}
+
+slide_timing()
+
+
+
+
+
+
+
 var game = document.getElementById("button");
 var hover1 = document.getElementById("hover1_pop");
 var hover1_replace =document.getElementById("ice_key");
