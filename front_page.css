@@ -28,7 +28,8 @@ h2{
     }
 
 p{
-    font-size: 15.45px;
+    padding-top:100px;
+    font-size: 30.9px;
     font-family: sans-serif;
 }
 .right{
@@ -44,6 +45,8 @@ margin: 0px 60px 0% 0%;
         border-color: 10px rgb(169, 224, 252);
         border-radius: 50%;
         border-style: solid;
+        height:100%;
+        width:100%;
     }
    #link{
     cursor: pointer;
