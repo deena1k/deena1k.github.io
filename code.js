@@ -6,11 +6,10 @@ function slide_timing()
     for (let i=0; i<=full_slides.length-1;i++)
         {
             current_slide1 = full_slides[i];
-            console.log("Right before attributes "+i)
             current_slide1.setAttribute("style","visibility:visible");
             setInterval(slide_progress,5000,current_slide1);
             console.log("Timer up");
-            if (i <= full_slides.length-1)
+            if (i >= full_slides.length-1)
             {
                 i=-1;
                 continue;
