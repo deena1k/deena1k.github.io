@@ -45,6 +45,7 @@ margin-top:30px;
         justify-content: space-between;
         flex-direction: row;
         padding: 10px 0px 0px 0px;
+        gap:20px;
     }
 
 p{
