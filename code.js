@@ -16,8 +16,8 @@ function slide_timing(slide)
 
 function slide_progress(slide)
 {
-    slide.setAttribute("style","visibility:hidden")
-    console.log("We changed it to hidden!");
+    slide.setAttribute("style","visibility:hidden");
+    slide_timing(slide+1);
 }
 initial_slide=0
 slide_timing(initial_slide)
