@@ -152,7 +152,8 @@ p{
    .slideshow
    {
     padding-bottom:10px;
-    visibility:hidden;
     position:absolute;
+    top: 0;
+    left: 0;
    }
 }
