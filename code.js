@@ -1,31 +1,26 @@
 var linkedln = document.getElementById("link");
 var full_slides = document.getElementsByClassName("slideshow");
 
-function slide_timing()
+function slide_timing(slide)
 {
-    for (let i=0; i<=full_slides.length-1;i++)
-        {
-            current_slide1 = full_slides[i];
-            current_slide1.setAttribute("style","visibility:visible");
-            setInterval(slide_progress,5000,current_slide1);
-            console.log("Timer up");
-            if (i >= full_slides.length-1)
-            {
-                i=-1;
-                continue;
-            }
-            console.log(i)
-        }
-
+    if (slide>=slide.length)
+    {
+        slide=0;
+    }
+    current_slide1 = full_slides[slide];
+    current_slide1.setAttribute("style","visibility:visible");
+    setTimeout(slide_progress,5000,current_slide1);
 }
+
+
 
 function slide_progress(slide)
 {
     slide.setAttribute("style","visibility:hidden")
     console.log("We changed it to hidden!");
 }
-
-slide_timing()
+initial_slide=0
+slide_timing(initial_slide)
 
 
 
