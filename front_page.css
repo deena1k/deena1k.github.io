@@ -150,6 +150,12 @@ p{
     padding-bottom:10px;
     width:auto;
     height:100px;
-    float:right;
+    position:absolute;
+    right:0;
+    margin-right:100px;
    }
+.project-select
+{
+    flex-direction: column;
+}
 }
