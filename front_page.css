@@ -19,8 +19,8 @@ width: auto;
 font-size:30.9px;
 display:flex;
 justify-content: space-between;
-padding-right:50%;
-float:left;
+padding-left:50%;
+float:right;
 }
 
 .pages a:hover {
