@@ -21,6 +21,7 @@ display:flex;
 justify-content: space-between;
 padding-left:50%;
 float:right;
+gap:15 px;
 }
 
 .pages a:hover {
