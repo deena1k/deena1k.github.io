@@ -9,18 +9,24 @@ function slide_timing(slide)
     }
     current_slide1 = full_slides[slide];
     current_slide1.setAttribute("style","visibility:visible");
-    setTimeout(slide_progress,5000,current_slide1);
 }
 
 
 
 function slide_progress(slide)
 {
-    slide.setAttribute("style","visibility:hidden");
-    slide_timing(slide+1);
+    if (slide>=full_slides.length)
+        {
+            slide=0;
+        }
+    current_slide1 = full_slides[slide];
+    current_slide1.setAttribute("style","visibility:visible");
+    setTimeout(slide_progress,5000,slide+1);
+    current_slide1.setAttribute("style","visibility:hidden");
 }
+
 initial_slide=0
-slide_timing(initial_slide)
+slide_progress(initial_slide)
 
 
 
