@@ -56,7 +56,6 @@ p{
 
 
     #me{
-        margin-right:60px;
         border-color: 10px rgb(169, 224, 252);
         border-radius: 50%;
         border-style: solid;
@@ -153,7 +152,6 @@ p{
     width:auto;
     height:150px;
     position:absolute;
-    margin-right:100px;
     justify-content: flex-end;
    }
 .project-select
