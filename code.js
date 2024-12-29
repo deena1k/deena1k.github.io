@@ -1,17 +1,6 @@
 var linkedln = document.getElementById("link");
 var full_slides = document.getElementsByClassName("slideshow");
 
-function slide_timing(slide)
-{
-    if (slide>=full_slides.length)
-    {
-        slide=0;
-    }
-    current_slide1 = full_slides[slide];
-    current_slide1.setAttribute("style","visibility:visible");
-}
-
-
 
 function slide_progress(slide)
 {
@@ -21,7 +10,7 @@ function slide_progress(slide)
         }
     current_slide1 = full_slides[slide];
     current_slide1.setAttribute("style","visibility:visible");
-    setTimeout(slide_progress,5000,slide+1);
+    setInterval(slide_progress,5000,slide+1);
     current_slide1.setAttribute("style","visibility:hidden");
 }
 
