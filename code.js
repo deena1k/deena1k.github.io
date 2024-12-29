@@ -3,7 +3,7 @@ var full_slides = document.getElementsByClassName("slideshow");
 
 function slide_timing(slide)
 {
-    if (slide>=slide.length)
+    if (slide>=full_slides.length)
     {
         slide=0;
     }
