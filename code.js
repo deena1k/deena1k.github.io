@@ -1,6 +1,6 @@
 var linkedln = document.getElementById("link");
 var full_slides = document.getElementsByClassName("slideshow");
-
+var selection = document.getElementsByClassName("project-select");
 
 function slide_progress(slide)
 {
@@ -49,7 +49,21 @@ hover1.addEventListener("mouseout",no_hover_for_pic1);
 hover2.hover1.addEventListener("mouseout",no_hover_for_pic2);
 hover2_replace.addEventListener("mouseover",hover_for_pic2);
 
+selection.addEventListener("mouseover",expand)
+selection.addEventListener("mouseout",discard)
+
+
 //hover functions
+function expand()
+{
+    selection.setAttribute("style","visibility:visible")
+}
+
+function discard()
+{
+    selection.setAttribute("style","visibility:hidden")    
+}
+
 function hovered()
 {
     game.setAttribute("style","background-color:rgb(38, 159, 235)");

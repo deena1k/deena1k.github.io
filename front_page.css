@@ -153,6 +153,7 @@ p{
     position:absolute;
     right:0;
     margin-right:100px;
+    justify-content: flex-end;
    }
 .project-select
 {
