@@ -1,6 +1,21 @@
 var linkedln = document.getElementById("link");
+var selection = document.getElementsByClassName("project-select");
+
+
+selection.addEventListener("mouseover",expand)
+selection.addEventListener("mouseout",discard)
 
 linkedln.addEventListener("click",redirect);
+
+function expand()
+{
+    selection.setAttribute("style","visibility:visible")
+}
+
+function discard()
+{
+    selection.setAttribute("style","visibility:hidden")    
+}
 
 function redirect()
 {
