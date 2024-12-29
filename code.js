@@ -27,7 +27,6 @@ function slide_progress(slide)
 
 
 
-var game = document.getElementById("button");
 var hover1 = document.getElementById("hover1_pop");
 var hover1_replace =document.getElementById("ice_key");
 var hover2 = document.getElementById("hover2_pop");
@@ -36,10 +35,8 @@ var hover2_replace =document.getElementById("ghost_rise");
 
 
 
-game.addEventListener("click",redirect2);
 
-game.addEventListener("mouseover",hovered);
-game.addEventListener("mouseout",no_hovered);
+
 hover1_replace.addEventListener("mouseover",hover_for_pic1);
 hover1.addEventListener("mouseout",no_hover_for_pic1);
 
@@ -61,14 +58,6 @@ function discard()
     selection.setAttribute("style","visibility:hidden")    
 }
 
-function hovered()
-{
-    game.setAttribute("style","background-color:rgb(38, 159, 235)");
-}
-function no_hovered()
-{
-    game.setAttribute("style","background-color:rgb(255, 255, 255)");
-}
 
 function hover_for_pic1()
 {
@@ -96,7 +85,3 @@ function no_hover_for_pic2()
 
 }
 
-function redirect2()
-{
-    window.open("https://simmer.io/@johnpayne/justdie");
-}
