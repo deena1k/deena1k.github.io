@@ -6,8 +6,9 @@ function slide_timing()
     for (let i=0; i<=full_slides.length;i++)
         {
             current_slide1 = full_slides[i];
-            current_slide.setAttribute("style","visibility:visible");
+            current_slide1.setAttribute("style","visibility:visible");
             setInterval(slide_progress,5000,current_slide1);
+            console.log("Timer up");
             if (i == full_slides.length)
             {
                 i=-1;
@@ -20,6 +21,7 @@ function slide_timing()
 function slide_progress(slide)
 {
     slide.setAttribute("style","visibility:hidden")
+    console.log("We changed it to hidden!");
 }
 
 slide_timing()
