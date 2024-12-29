@@ -45,7 +45,6 @@ margin-top:30px;
         justify-content: space-between;
         flex-direction: row;
         gap:20px;
-        position:relative;
     }
 
 p{
@@ -151,7 +150,6 @@ p{
     padding-bottom:10px;
     width:auto;
     height:150px;
-    position:absolute;
     justify-content: flex-end;
    }
 .project-select
