@@ -12,7 +12,11 @@ h2{
     font-size:30.9px;
     margin: 10px 0px;
 }
-
+.pages
+{
+display:flex;
+justify-content: flex-end;
+}
     .flex1{
         display: flex;
         position:sticky;
@@ -45,8 +49,8 @@ margin: 0px 60px 0% 0%;
         border-color: 10px rgb(169, 224, 252);
         border-radius: 50%;
         border-style: solid;
-        height:100%;
-        width:100%;
+        height:50%;
+        width:50%;
     }
    #link{
     cursor: pointer;
