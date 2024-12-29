@@ -46,6 +46,7 @@ margin-top:30px;
         flex-direction: row;
         gap:20px;
         position:relative;
+        padding-left: 20px;
     }
 
 p{

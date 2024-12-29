@@ -11,6 +11,7 @@ function slide_timing()
             if (i == full_slides.length)
             {
                 i=-1;
+                continue;
             }
         }
 
