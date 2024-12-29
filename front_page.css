@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(76, 57, 28);
+    background-color: rgb(255, 255, 255);
     
 h1{
     border-image: 2px thick double white;
@@ -30,22 +30,19 @@ h2{
 p{
     font-size: 15.45px;
     font-family: sans-serif;
-    background-color:aliceblue;
-    border: 6px solid #373534;
 }
 .right{
 margin: 0px 60px 0% 0%;
 }
 
     #intro {
-        border: 6px dotted #95ebee;
-        background-color:aliceblue;
         margin: 0px 20px 0% 0%;
 
       }
     #me{
         margin-right:60px;
         border-color: 10px rgb(169, 224, 252);
+        border-radius: 50%;
         border-style: solid;
     }
    #link{
