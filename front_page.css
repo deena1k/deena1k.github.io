@@ -37,9 +37,10 @@ margin-top:50px;
 }
     .flex1{
         display: flex;
+        gap:40px;
         position:sticky;
         background-color: rgb(33, 33, 33);
-
+        z-index: 1;
         top:0;
     }
 
