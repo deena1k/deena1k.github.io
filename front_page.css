@@ -59,7 +59,7 @@ p{
         border-style: solid;
         height:400px;
         width:400px;
-        margin-top: 10px;
+        margin-top: 20px;
         justify-content: flex-start;
         right:70px;
         position:absolute;
@@ -156,8 +156,8 @@ p{
     margin-left:20px;
     position:absolute;
     justify-content: flex-end;
-    left:0;
-    border:3px thick double black;
+    left:70px;
+    border:3px double black;
    }
 #project-select
 {
