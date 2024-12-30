@@ -149,15 +149,15 @@ p{
    .slideshow
    {
     padding-bottom:10px;
-    width:500px;
+    width:600px;
     word-wrap: break-word;
     height:400px;
     margin-top:20px;
     margin-left:20px;
     position:absolute;
     justify-content: flex-end;
-    left:70px;
-    border:3px double black;
+    left:50px;
+    border:3px solid black;
    }
 #project-select
 {
@@ -167,4 +167,6 @@ p{
 {
     visibility: hidden;
 }
+
+
 }

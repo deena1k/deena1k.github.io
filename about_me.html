@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang ="en">
     <head>
-        <link rel="stylesheet" href="front_page.css">
         <title > About Me </title>
     </head>
-   
-    <body>
+    <body onload="slide_progress(0)">
         <div class = flex1>
             <h1> Adeena Khan </h1>
             <img id="link" src="ln.png"/>
             <div class ="pages"> 
-                <a href="about_me.html" style="text-decoration:none"> About Me </a>
-                <div id="project-select">
+                <a href="index.html" style="text-decoration:none"> About Me </a>
+                <div class="project-select">
                 <a href="projects.html" style="text-decoration:none"> Projects </a>
-                <div id=project_subset>
+                <div class=project_subset>
                     <a href="Dude.html" style="text-decoration:none"> Dude </a>
                 </div>
                 </div>
@@ -22,24 +20,25 @@
             </div>
         </div>
         <div class = flex2>
+            <div class="slideshow">
             <p id="intro"> My name is Adeena Khan, and I'm a senior at Massachusetts Institute of Technology majoring in Chemical-Biological Engineering.
                 I have a passion for Computer Science and coding, which is why I've created a webpage for my Engineering portfolio. This is the first website I've made, and it's 
                 created using HTML, CSS, and a little bit of JavaScript.
+            </p>
+            </div>
+        <div class="slideshow">
+            <p id="intro2"> Some of my interests include design optimization, medical device design, pharmaceutical production, and coding.
+                On the next slide is a list of my skills, and by clicking on the "Projects" tab, you can see a few of the projects I've
+                worked on over the year.
             </p>
         </div>
         
             <img id ="me" src="Me.jpg" height = "250" width = "300" 
             />
         </div>
-        <p>
-             Some of my interests include design optimization, medical device design, pharmaceutical production, and coding.
-                On the next slide is a list of my skills, and by clicking on the "Projects" tab, you can see a few of the projects I've
-                worked on over the year.
-        </p>
 
-
+        <script src="code.js"></script>
         <script src="global_script"></script>
+
     </body>
-</html>
-<!-- Projects I've worked on: 10.494B Project, electronic project lab, This Website!-
- https://simmer.io/@johnpayne/justdie -> Original just die with my programming, displays inventory at top, use with e, interactions work->
+    </html>
