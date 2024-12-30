@@ -1,5 +1,6 @@
 var linkedln = document.getElementById("link");
-var selection = document.getElementById("project-select");
+var selection = document.getElementById("project_subset");
+var maximize = document.getElementById("project-select");
 
 
 selection.addEventListener("mouseover",expand)
@@ -9,12 +10,12 @@ linkedln.addEventListener("click",redirect);
 
 function expand()
 {
-    selection.setAttribute("style","visibility:visible")
+    maximize.setAttribute("style","visibility:visible")
 }
 
 function discard()
 {
-    selection.setAttribute("style","visibility:hidden")    
+    maximize.setAttribute("style","visibility:hidden")    
 }
 
 function redirect()
