@@ -151,14 +151,19 @@ p{
    {
     padding-bottom:10px;
     width:300px;
+    word-wrap: break-word;
     height:200px;
     position:absolute;
     justify-content: flex-end;
     left:0;
     border:3px solid black;
    }
-.project-select
+#project-select
 {
     flex-direction: column;
+}
+#project_subset
+{
+    visibility: hidden;
 }
 }
