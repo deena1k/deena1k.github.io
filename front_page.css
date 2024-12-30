@@ -48,7 +48,6 @@ margin-top:30px;
     }
 
 p{
-    padding-top:100px;
     font-size: 30.9px;
     font-family: sans-serif;
 }
@@ -150,13 +149,15 @@ p{
    .slideshow
    {
     padding-bottom:10px;
-    width:300px;
+    width:500px;
     word-wrap: break-word;
-    height:200px;
+    height:400px;
+    margin-top:20px;
+    margin-left:20px;
     position:absolute;
     justify-content: flex-end;
     left:0;
-    border:3px solid black;
+    border:3px thick double black;
    }
 #project-select
 {
