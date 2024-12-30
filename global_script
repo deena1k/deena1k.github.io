@@ -1,5 +1,5 @@
 var linkedln = document.getElementById("link");
-var selection = document.getElementsByClassName("project-select");
+var selection = document.getElementById("project-select");
 
 
 selection.addEventListener("mouseover",expand)

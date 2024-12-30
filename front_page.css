@@ -62,6 +62,8 @@ p{
         width:400px;
         margin-top: 60px;
         justify-content: flex-start;
+        right:0;
+        position:absolute;
 
     }
    #link{
@@ -148,11 +150,10 @@ p{
    .slideshow
    {
     padding-bottom:10px;
-    width:auto;
-    height:150px;
+    width:300px;
+    height:200px;
     position:absolute;
     justify-content: flex-end;
-    top:0;
     left:0;
     border:3px solid black;
    }
