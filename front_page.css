@@ -59,9 +59,9 @@ p{
         border-style: solid;
         height:400px;
         width:400px;
-        margin-top: 60px;
+        margin-top: 10px;
         justify-content: flex-start;
-        right:0;
+        right:70px;
         position:absolute;
 
     }
