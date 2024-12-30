@@ -1,6 +1,6 @@
 var linkedln = document.getElementById("link");
-var selection = document.getElementById("project_subset");
-var maximize = document.getElementById("project-select");
+var maximize = document.getElementById("project_subset");
+var selection = document.getElementById("project-select");
 
 
 selection.addEventListener("mouseover",expand)
