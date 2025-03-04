@@ -21,12 +21,19 @@ display:flex;
 justify-content: space-between;
 padding-left:60px;
 float:right;
-gap:20px;
+gap:70px;
 margin-top:50px;
+}
+.languages{
+    height:5% ;
+    width: 5%;
+    flex-direction: row;
+    gap: 72px;
 }
 
 .pages a:hover {
     background-color: #ddd;
+    background-size:cover;
     color: rgb(5, 45, 101);
   }
 .pages a:active{
@@ -51,6 +58,9 @@ margin-top:50px;
         gap:100px;
     }
 
+    .contact{
+        flex-direction: column;
+    }
 p{
     font-size: 30.9px;
     font-family: sans-serif;
