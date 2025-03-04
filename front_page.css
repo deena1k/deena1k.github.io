@@ -179,6 +179,12 @@ p{
 {
     visibility: hidden;
 }
-
+.container{
+    display:grid;
+}
+#first_cont{
+    display:flex;
+    flex-direction: column;
+}
 
 }
